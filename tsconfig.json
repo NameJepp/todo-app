@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist/js",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*", "my-app/src/type.d.ts", "my-app/src/app.ts", "my-app/src/API.ts", "my-app/src/components"],
+    "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
+  }
